@@ -1,9 +1,11 @@
 #!/bin/bash
-#Database Details
+#Script Variables
 HOST='192.46.215.131';
 USER='t2vpn_tipuuae';
 PASS='@AlaMinbd25';
 DBNAME='t2vpn_tipuuae';
+PORT_TCP='1194';
+PORT_UDP='53';
 
 system_update () {
 sudo timedatectl set-timezone Asia/Manila
